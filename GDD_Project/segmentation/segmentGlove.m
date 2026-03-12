@@ -11,7 +11,7 @@ BW = S > 0.2;
 % Refine mask
 mask = refineMask(BW);
 
-% Generate segmented image
+% Generate segmented image testing
 segmentedImg = img;
 
 for c = 1:3
