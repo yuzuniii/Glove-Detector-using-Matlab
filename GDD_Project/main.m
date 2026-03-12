@@ -2,7 +2,7 @@ clc;
 clear;
 close all;
 
-img = imread('blueglove.jpg');
+img = imread('L Knocking.jpg');
 
 [mask, segmentedImg] = segmentGlove(img);
 
